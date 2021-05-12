@@ -53,7 +53,7 @@ body
 
 .logo
 {
-  width : 3rem;
+  width : 10rem;
 }
 
 nav a.nav-link
@@ -76,8 +76,9 @@ border-top: 0.1875rem solid var(--primary-dark);
   .navbar-brand
  {
     max-width: 30rem; 
-    padding-top: 0.5rem !important;
-   height: 4rem !important;
+   padding-top: 0rem !important;
+   padding-bottom: 1rem !important;
+   height: 3.8rem !important;
  } 
 
  .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
