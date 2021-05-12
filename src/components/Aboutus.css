@@ -1,0 +1,81 @@
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+  }
+  
+  .social-link:hover,
+  .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+  }
+  .abouthead{
+    text-align: center !important;
+    font-family: gabriola!important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 3%;
+    background-image: linear-gradient(to right,white, #C0C0C0 , white);
+  }
+  .about{
+    cursor: pointer;
+    background-color:#fff;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .about h1 {
+    padding: 10px 0;
+    margin-bottom: 20px;
+  }
+  .about h2 {
+    opacity: .8;
+  }
+  .about span {
+    display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin:auto;
+    border-radius:50%;  
+    font-size: 40px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    background-color: #ffa500;
+    border: 2px solid blue;
+  
+    webkit-transition:all .5s ease;
+     moz-transition:all .5s ease;
+     os-transition:all .5s ease;
+     transition:all .5s ease;
+  
+  }
+  .about:hover span{
+    opacity: 1;	
+    border: 2px solid blue;
+    font-size: 42px;
+    -webkit-transform: scale(1.1,1.1) rotate(360deg) ;
+    -moz-transform: scale(1.1,1.1) rotate(360deg) ;
+    -o-transform: scale(1.1,1.1) rotate(360deg) ;
+    transform: scale(1.1,1.1) rotate(360deg) ;
+  }
+  .about:hover h2{
+    opacity: 1;
+    -webkit-transform: scale(1.1,1.1)  ;
+    -moz-transform: scale(1.1,1.1)  ;
+    -o-transform: scale(1.1,1.1)  ;
+    transform: scale(1.1,1.1) ;
+  }
+  .about .lead{
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+  }
