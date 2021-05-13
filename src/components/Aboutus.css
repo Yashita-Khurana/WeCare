@@ -76,6 +76,22 @@
   }
   .about .lead{
     color: black;
-    font-size: 14px;
+    font-size: 414px;
     font-weight: bold;
   }
+ h2.display-4-font-weight-light{
+  font-family:cursive;
+  font-weight: 600 ;
+ color:beige;
+ }
+ div.col-lg-5-1{
+   padding-right: 25%;
+ }
+ div.container-py-5-1{
+   background-color: #ffa500;
+  padding-right:none;
+  padding-left: 17%;  
+ }
+ p.font-italic-text-muted-1{
+   color: black;
+ }
