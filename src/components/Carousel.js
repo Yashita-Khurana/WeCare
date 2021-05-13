@@ -1,5 +1,8 @@
 import React from 'react'
 import './Carousel.css'
+import carousel2 from '../carousel2.png';
+import carousel3 from '../carousel3.jpg';
+import carousel7 from '../carousel7.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 function Carousel() {
     return (
@@ -16,21 +19,21 @@ function Carousel() {
 
           <div className="carousel-item active" >
             <div className="img1">
-              <img src="ls.jpg" width="100%" height="50%"/>
+              <img src={carousel2} width="100%" height="50%"/>
             <div className="caption">
           
-              <h1 className="intro">First page</h1>
-              <h2>Make it easy for you to do whatever this thing does.</h2>
+              <h1 className="intro">Mental Peace First</h1>
+              <h2>Keep a check on your mental health with us.</h2>
             </div>
             </div>
            
           </div>
 
           <div className="carousel-item">
-            <img className="img1"src="ls2.jpg"/>
+            <img className="img1"src={carousel3}/>
             <div className="caption">
-              <h1 className="intro">Second Page</h1>
-              <h2>Else it easy for you to do whatever this thing does.</h2>
+              <h1 className="intro">Family first</h1>
+              <h2>Take care of your precious family during these tough times</h2>
 
           
               
@@ -39,10 +42,10 @@ function Carousel() {
           </div>
           
           <div className="carousel-item" >
-          <img src="ls3.jpg" width="100%" height="100%"/>
+          <img src={carousel7} width="100%" height="100%"/>
             <div className="caption">
-              <h1 className="intro">Third Page</h1>
-              <h2>Make it easy for you to do whatever this thing does.</h2>
+              <h1 className="intro">Know your health</h1>
+              <h2>Have an idea to boost your immunity with right things.</h2>
             </div>
           </div>
 
