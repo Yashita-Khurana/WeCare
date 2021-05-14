@@ -18,15 +18,6 @@ function Aboutus() {
                 <h1 id="abouthead" className="display-4">ABOUT US</h1>
             </div>
 
-
-
-
-
-
-
-
-
-
             <section className="text-center about">
                 <div className="bg-white py-5">
                     <div className="container py-5">
@@ -104,12 +95,6 @@ function Aboutus() {
                                 </ul>
                             </div>
                         </div>
-
-
-
-
-
-
                     </div>
                 </div>
             </div>
@@ -145,11 +130,7 @@ function Aboutus() {
 
             </div>
 
-            <footer className="bg-light pb-5">
-                <div className="container text-center">
-                    <p className="font-italic text-muted mb-0">&copy; Copyrights Company.com All rights reserved.</p>
-                </div>
-            </footer>
+            
         </div>
     )
 }
