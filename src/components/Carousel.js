@@ -6,7 +6,7 @@ import carousel7 from '../carousel7.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 function Carousel() {
     return (
-        <div>
+        <div className="parent">
     
       <div id="carousel" className="carousel slide" data-ride="carousel">
         <ol className="carousel-indicators">
@@ -19,7 +19,10 @@ function Carousel() {
 
           <div className="carousel-item active" >
             <div className="img1">
-              <img src={carousel2} width="100%" height="50%"/>
+              <video  classaName="video" autoPlay loop muted>
+                <source src="yoga.mp4" type="video/mp4"></source>
+              </video>
+              {/* <img src={carousel2} width="100%" height="50%"/> */}
             <div className="caption">
           
               <h1 className="intro">Mental Peace First</h1>
@@ -68,4 +71,3 @@ function Carousel() {
 }
 
 export default Carousel
-
