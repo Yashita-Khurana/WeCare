@@ -22,14 +22,10 @@
   background-size: cover;
  
 }
-<<<<<<< HEAD
-
-=======
 .img1{
   width: 100%;
   height: auto;
 }
->>>>>>> 5ad9c2fe846f89be24ac82dc673d0f18606de24f
 
 .caption {
   position: absolute;
@@ -83,30 +79,6 @@ background: rgba(255, 255, 255, 0.4);
 border-top: 20px solid;
 z-index: 15;
 }
-<<<<<<< HEAD
 .video{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  background: skyblue;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100% !important;
+align-items: center;
 }
-.caption > h1{
-  color: black;
-  text-shadow: 2px 2px white;
-}
-=======
-.img1 > video{
-width: 100%;
-height: auto;
-margin-right: 50%;
-
-} 
->>>>>>> 5ad9c2fe846f89be24ac82dc673d0f18606de24f
