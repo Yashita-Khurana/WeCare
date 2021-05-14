@@ -5,8 +5,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone,faEnvelope, faMapMarker } from '@fortawesome/free-solid-svg-icons'
 function Footer() {
     return (
-        <div>
+        <div className="parent">
             <footer>
+            <div className="new_footer_top">
+
+<div className="footer_bg">
+
+    <div className="footer_bg_one"></div>
+    <div className="footer_bg_two"></div>
+</div>
+
+</div>
                 <div className="footer">
                     <div className="column">
                         <ul>
@@ -55,15 +64,7 @@ function Footer() {
 
 
 
-            <div className="new_footer_top">
-
-                <div className="footer_bg">
-
-                    <div className="footer_bg_one"></div>
-                    <div className="footer_bg_two"></div>
-                </div>
-
-            </div>
+            
             <div className="sub-footer">
                 WeCare Copyright © 2021 WeCare - All rights reserved || Designed By: WeCare Studios
             </div>

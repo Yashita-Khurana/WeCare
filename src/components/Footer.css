@@ -1,7 +1,15 @@
+.parent{
+  position: relative;;
+}
 .new_footer_top {
+
+   padding: -100px 0px -100px;
+
   padding: 120px 0px 0px;
+
   position: relative;
-    overflow-x: hidden;
+  margin-top: 10%;
+    /* overflow-x: hidden; */
 }
 
 
@@ -85,6 +93,8 @@ body{
   width:20%;
   margin:0% 1%;
   display:inline-block;
+  position: relative;
+  top:-365px;
   }
   
   .footer .column ul{
@@ -195,5 +205,5 @@ body{
   }
   }
 
-/*************footer End*****************/
+
 
