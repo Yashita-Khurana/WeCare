@@ -2,9 +2,9 @@ import React from 'react'
 import './Carousel.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 function Carousel() {
-    return (
-        <div>
-    
+  return (
+    <div>
+
       <div id="carousel" className="carousel slide" data-ride="carousel">
         <ol className="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
@@ -16,30 +16,60 @@ function Carousel() {
 
           <div className="carousel-item active" >
             <div className="img1">
-              <img src="ls.jpg" width="100%" height="50%"/>
-            <div className="caption">
-          
-              <h1 className="intro">First page</h1>
-              <h2>Make it easy for you to do whatever this thing does.</h2>
+              <video className="video" autoPlay loop muted>
+                <source src="video.mp4" type="video/mp4" />
+              </video>
+             
+              <div className="caption">
+
+                <h1 className="intro"><b>YOGA</b></h1>
+                <h2>YOGA SE HI HOGA🌚🌚🌚!</h2>
+              </div>
             </div>
-            </div>
-           
+
           </div>
 
-          <div className="carousel-item">
-            <img className="img1"src="ls2.jpg"/>
+
+
+
+
+          <div className="carousel-item" >
+            <div className="img1">
+              <video className="video" autoPlay loop muted>
+                <source src="video2.mp4" type="video/mp4" />
+              </video>
+             
+              <div className="caption">
+                <h1 className="intro"><b>Corona</b></h1>
+                <h2>GO KARONA GO🌚🌚🌚!</h2>
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+
+          {/* <div className="carousel-item">
+          <div className="img1">
+              <video className="video" autoPlay loop muted>
+                <source src="video2.mp4" type="video/mp4" />
+              </video>
+           
+              <div className="caption">
             <div className="caption">
               <h1 className="intro">Second Page</h1>
               <h2>Else it easy for you to do whatever this thing does.</h2>
 
-          
-              
-              
+
+
+</div>
             </div>
-          </div>
-          
+          </div> */}
+
           <div className="carousel-item" >
-          <img src="ls3.jpg" width="100%" height="100%"/>
+            <img src="ls3.jpg" width="100%" height="100%" />
             <div className="caption">
               <h1 className="intro">Third Page</h1>
               <h2>Make it easy for you to do whatever this thing does.</h2>
@@ -47,7 +77,7 @@ function Carousel() {
           </div>
 
         </div>
-        
+
         <a className="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
           <span className="sr-only">Previous</span>
@@ -58,10 +88,10 @@ function Carousel() {
         </a>
 
       </div>
-    
-     </div>
-       
-    )
+
+    </div>
+
+  )
 }
 
 export default Carousel

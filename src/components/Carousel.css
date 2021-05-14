@@ -22,10 +22,7 @@
     background-size: cover;
    
 }
-.img1{
-    width: 100%;
-    height: auto;
-}
+
 
 .caption {
     position: absolute;
@@ -78,4 +75,22 @@ a.big-button:hover {
   background: rgba(255, 255, 255, 0.4);
   border-top: 20px solid;
   z-index: 15;
+}
+.video{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: skyblue;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100% !important;
+}
+.caption > h1{
+  color: black;
+  text-shadow: 2px 2px white;
 }
