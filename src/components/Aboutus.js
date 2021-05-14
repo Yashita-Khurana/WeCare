@@ -18,15 +18,6 @@ function Aboutus() {
                 <h1 id="abouthead" className="display-4">ABOUT US</h1>
             </div>
 
-
-
-
-
-
-
-
-
-
             <section className="text-center about">
                 <div className="bg-white py-5">
                     <div className="container py-5">
@@ -56,12 +47,12 @@ function Aboutus() {
 
 
 
-            <div className="bg-light py-5">
-                <div className="container py-5">
-                    <div className="row mb-4">
-                        <div className="col-lg-5">
-                            <h2 className="display-4 font-weight-light">Our team</h2>
-                            <p className="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <div className="bg-light-py-5-1">
+                <div className="container-py-5-1">
+                    <div className="row-mb-4">
+                        <div className="col-lg-5-1">
+                            <h2 className="display-4-font-weight-light">OUR TEAM</h2>
+                            <p className="font-italic-text-muted-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
 
@@ -70,8 +61,8 @@ function Aboutus() {
                     <div className="row text-center">
 
                         <div className="col-xl-3 col-sm-6 mb-5">
-                            <div className="bg-white rounded shadow-sm py-5 px-4"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
-                                <h5 className="mb-0">Yashita</h5><span className="small text-uppercase text-muted">Team-Leader</span>
+                            <div className="bg-white rounded-shadow sm py-5 px 4"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
+                                <h5 className="mb-0">YASHITA</h5><span className="small text-uppercase text-muted">Team-Leader</span>
                                 <ul className="social mb-0 list-inline mt-3">
                                     <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-facebook-f"></i></a></li>
                                     <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-twitter"></i></a></li>
@@ -82,8 +73,8 @@ function Aboutus() {
                         </div>
 
                         <div className="col-xl-3 col-sm-6 mb-5">
-                            <div className="bg-white rounded shadow-sm py-5 px-4"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834130/avatar-3_hzlize.png" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
-                                <h5 className="mb-0">Himanshu</h5><span className="small text-uppercase text-muted">Vehlla</span>
+                            <div className="bg-white rounded-shadow sm py-5 px 4"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834130/avatar-3_hzlize.png" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
+                                <h5 className="mb-0">HIMANSHU</h5><span className="small text-uppercase text-muted">Vehlla</span>
                                 <ul className="social mb-0 list-inline mt-3">
                                     <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-facebook-f"></i></a></li>
                                     <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-twitter"></i></a></li>
@@ -94,8 +85,8 @@ function Aboutus() {
                         </div>
 
                         <div className="col-xl-3 col-sm-6 mb-5">
-                            <div className="bg-white rounded shadow-sm py-5 px-4"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834133/avatar-2_f8dowd.png" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
-                                <h5 className="mb-0">Taran</h5><span className="small text-uppercase text-muted">Star</span>
+                            <div className="bg-white rounded-shadow sm py-5 px 4"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834133/avatar-2_f8dowd.png" alt="" width="100" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
+                                <h5 className="mb-0">TARAN</h5><span className="small text-uppercase text-muted">Star</span>
                                 <ul className="social mb-0 list-inline mt-3">
                                     <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-facebook-f"></i></a></li>
                                     <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-twitter"></i></a></li>
@@ -104,12 +95,6 @@ function Aboutus() {
                                 </ul>
                             </div>
                         </div>
-
-
-
-
-
-
                     </div>
                 </div>
             </div>
@@ -145,11 +130,7 @@ function Aboutus() {
 
             </div>
 
-            <footer className="bg-light pb-5">
-                <div className="container text-center">
-                    <p className="font-italic text-muted mb-0">&copy; Copyrights Company.com All rights reserved.</p>
-                </div>
-            </footer>
+            
         </div>
     )
 }
