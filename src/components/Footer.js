@@ -51,7 +51,7 @@ function Footer() {
                         </ul>
                     </div>
                 </div>
-            </footer>
+            
 
 
 
@@ -65,8 +65,9 @@ function Footer() {
 
             </div>
             <div className="sub-footer">
-                INFERNO Copyright © 2021 Inferno - All rights reserved || Designed By: Mahesh
-</div>
+                WeCare Copyright © 2021 WeCare - All rights reserved || Designed By: WeCare Studios
+            </div>
+            </footer>
         </div>
     )
 }

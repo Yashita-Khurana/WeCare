@@ -85,12 +85,13 @@
  color:beige;
  }
  div.col-lg-5-1{
-   padding-right: 25%;
+   padding-right: 17%;
  }
  div.container-py-5-1{
-   background-color: #ffa500;
+  background-color: #ffa500;
   padding-right:none;
   padding-left: 17%;  
+  overflow-x: hidden;
  }
  p.font-italic-text-muted-1{
    color: black;

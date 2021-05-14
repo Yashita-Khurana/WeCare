@@ -17,16 +17,16 @@ const Navbar = () => {
         <a className="nav-link" href="#">Home <span className="sr-only"></span></a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Healthcare</a>
+        <a className="nav-link" href="#">About Us</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Yoga</a>
+        <a className="nav-link" href="#">Services</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Diet</a>
+        <a className="nav-link" href="#">Guides</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">PatientGuide</a>
+        <a className="nav-link" href="#">Our team</a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="#">Contact us</a>
