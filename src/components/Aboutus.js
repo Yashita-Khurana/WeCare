@@ -9,6 +9,7 @@ import './Aboutus.css'
 function Aboutus() {
     return (
         <div>
+         <section id="about">
             <div className="abouthead">
                 <h1 id="abouthead" className="display-4">ABOUT US</h1>
             </div>
@@ -127,8 +128,8 @@ function Aboutus() {
             </div>
 
 
-
-
+          </section>
+           <section id="teams">
             <div className="bg-light-py-5-1  justify-content-center">
                 <div className="container-py-5-1 justify-content-center">
                     <div className="row-mb-4 justify-content-center">
@@ -175,8 +176,9 @@ function Aboutus() {
                     </div>
                 </div>
             </div>
-
+            </section>
 <hr className="new5"></hr>
+           <section id="service">
             <div className="container-fluid text-center">
                 <h2>SERVICES</h2>
                 <h4>What we offer</h4>
@@ -202,6 +204,7 @@ function Aboutus() {
                     </div>
                 </div>
             </div>
+            </section>
         </div>
     )
 }
