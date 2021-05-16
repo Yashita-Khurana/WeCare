@@ -79,6 +79,7 @@ background: rgba(255, 255, 255, 0.4);
 border-top: 20px solid;
 z-index: 15;
 }
-.video{
-align-items: center;
+.img1 >video{
+  width: 100%;
+  height: auto;
 }

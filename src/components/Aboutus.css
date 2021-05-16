@@ -1,44 +1,26 @@
-.social-link {
-    width: 30px;
-    height: 30px;
-    border: 1px solid #ddd;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #666;
-    border-radius: 50%;
-    transition: all 0.3s;
-    font-size: 0.9rem;
-  }
-  
-  .social-link:hover,
-  .social-link:focus {
-    background: #ddd;
-    text-decoration: none;
-    color: #555;
-  }
-  .abouthead{
+
+   .abouthead{
     text-align: center !important;
     font-family: gabriola!important;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 3%;
     background-image: linear-gradient(to right,white, #C0C0C0 , white);
-  }
+  } 
   .about{
     cursor: pointer;
     background-color:#fff;
     color: black;
     padding-top: 20px;
     padding-bottom: 30px;
-  }
-  .about h1 {
+  } 
+    .about h1 {
     padding: 10px 0;
     margin-bottom: 20px;
   }
   .about h2 {
     opacity: .8;
-  }
+  } 
   .about span {
     display: block;
     width: 100px;
@@ -52,13 +34,13 @@
     background-color: #ffa500;
     border: 2px solid blue;
   
-    webkit-transition:all .5s ease;
-     moz-transition:all .5s ease;
-     os-transition:all .5s ease;
+    -webkit-transition:all .5s ease;
+     -moz-transition:all .5s ease;
+     -o-transition:all .5s ease;
      transition:all .5s ease;
   
   }
-  .about:hover span{
+   .about:hover span{
     opacity: 1;	
     border: 2px solid blue;
     font-size: 42px;
@@ -66,7 +48,7 @@
     -moz-transform: scale(1.1,1.1) rotate(360deg) ;
     -o-transform: scale(1.1,1.1) rotate(360deg) ;
     transform: scale(1.1,1.1) rotate(360deg) ;
-  }
+  } 
   .about:hover h2{
     opacity: 1;
     -webkit-transform: scale(1.1,1.1)  ;
@@ -74,25 +56,98 @@
     -o-transform: scale(1.1,1.1)  ;
     transform: scale(1.1,1.1) ;
   }
-  .about .lead{
-    color: black;
-    font-size: 414px;
-    font-weight: bold;
-  }
- h2.display-4-font-weight-light{
-  font-family:cursive;
-  font-weight: 600 ;
- color:beige;
- }
- div.col-lg-5-1{
-   padding-right: 17%;
- }
- div.container-py-5-1{
+.col-sm-5-1{
+    margin: auto;
+   width: 100%;
+ } 
+.container-py-5-1{
   background-color: #ffa500;
-  padding-right:none;
-  padding-left: 17%;  
-  overflow-x: hidden;
+   margin: auto;
+   padding: 10px;
+   height: auto;
+  
  }
+#team{
+  margin: 0;
+  padding: 0;
+ 
+}
+#yashu{
+width: 80%;
+display:inline-block;
+ }
+ #tara{
+  width: 80%;
+  display:inline-block;
+   }
+   #himu{
+    width: 80%;
+    display:inline-block;
+     }
  p.font-italic-text-muted-1{
    color: black;
  }
+.row{
+  width: 100%;
+  height: auto;
+  padding:10px;
+ 
+}
+
+/* for demo purposes */
+.card {
+  margin: 30px 30px;
+  border-radius: 10px;
+}
+
+/* Flip Cards CSS */
+.card-container {
+  display: grid;
+  perspective: 700px;
+}
+
+.card-flip {
+  display: grid;
+  grid-template: 1fr / 1fr;
+  grid-template-areas: "frontAndBack";
+  transform-style: preserve-3d;
+  transition: all 0.7s ease;
+
+}
+
+.card-flip div {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.front {
+  grid-area: frontAndBack;
+}
+
+.back {
+  grid-area: frontAndBack;
+  transform: rotateY(-180deg);
+}
+
+.card-container:hover .card-flip {
+  transform: rotateY(180deg);
+}
+.card-block >video{
+  width: 100%;
+  height: auto;
+  padding: 10px;
+
+}
+
+.row{
+  align-items: center !important;
+  width: 100%;
+ height: auto;
+}
+.container-fluid{
+  padding: 10px;
+}
+hr.new5 {
+  border-top: 10px solid #0f67ac;
+  border-radius: 5px;
+}

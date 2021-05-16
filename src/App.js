@@ -8,10 +8,10 @@ function App() {
   return (
     <div className="App">
     
-      <Navbar />
-      <Carousel/>
-      <Aboutus/>
-<Footer/>
+       <Navbar /> 
+       <Carousel/> 
+       <Aboutus/> 
+<Footer/> 
     </div>
   );
 }
