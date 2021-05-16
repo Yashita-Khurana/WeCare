@@ -2,7 +2,7 @@ import React from 'react'
 import './Footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import { faPhone,faEnvelope, faMapMarker } from '@fortawesome/free-solid-svg-icons'
+import { faPhone , faEnvelope , faMapMarker, faPaperPlane, faMapMarked, faLocationArrow, faSearchLocation } from '@fortawesome/free-solid-svg-icons'
 function Footer() {
     return (
         <div className="parent">
@@ -49,13 +49,13 @@ function Footer() {
                             <li className="title">NEWSLETTER</li>
                             <li>
                                 <form action="#" method="post">
-                                    <input type="email" name="email" placeholder="Email*" maxlength="80" required /><button className="btn1"><i className="fa fa-paper-plane"></i></button>
+                                    <input type="email" name="email" placeholder="Email*" maxlength="80" required /><button className="btn1"><i><FontAwesomeIcon icon={faPaperPlane} size='0.6x' /></i></button>
                                 </form>
                             </li>
                             <li>
-                                <a href="#" title="Address,State,Country,Pincode"><i><FontAwesomeIcon icon={faMapMarker} size='0.6x' style={{ color: "black" }} /></i></a>
-                                <a href="#"><i><FontAwesomeIcon icon={faPhone} size='0.6x' style={{ color: "black" }} /></i></a>
-                                <a href="#"><i><FontAwesomeIcon icon={faEnvelope} size='0.6x' style={{ color: "black" }} /></i></a>
+                                <a href="#" title="Address,State,Country,Pincode"><i><FontAwesomeIcon icon={faSearchLocation} size='0.6x' /></i></a>
+                                <a href="#"><i><FontAwesomeIcon icon={faPhone} size='0.6x'  /></i></a>
+                                <a href="#"><i><FontAwesomeIcon icon={faEnvelope} size='0.6x'  /></i></a>
                             </li>
                         </ul>
                     </div>
