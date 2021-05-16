@@ -15,7 +15,10 @@
 bottom: 0;
 background: url("himupro.jpg") no-repeat scroll center ;
 width:100%;
+margin-right: -1%;
+/* margin-left: 5px; */
 height: 266px;
+overflow-x: hidden;
 }
 
 
@@ -27,9 +30,11 @@ height: 266px;
   background-size:180%;
   position: absolute;
   bottom: 0;
-  left: 30%;
+  /* left: 30%; */
   -webkit-animation: myfirst 8s linear infinite;
   animation: myfirst 8s linear infinite; 
+  overflow-x: hidden;
+  margin-left:-7.5%;
 }  
 
 .new_footer_top .footer_bg .footer_bg_two {
@@ -39,10 +44,12 @@ height: 266px;
   height: 150px;
   background-size:100%;
   bottom: 0;
-  left: 38%;
+  /* left: 38%; */
   position: absolute;
   -webkit-animation: myfirst 15s linear infinite;
   animation: myfirst 15s linear infinite;
+  overflow-x: hidden;
+  margin-left:-7.5%;
 } 
 
 
@@ -152,9 +159,11 @@ color:#f7bd00;
   .sub-footer{
   background:#1e1e1e;
   padding:5px 0px;
+  width: auto;
   text-align:center;
   color:gray;
   font-size:12px;
+  /* overflow-x: hidden; */
   font-family: 'Play', sans-serif;
   }
   
