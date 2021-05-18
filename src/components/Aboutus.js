@@ -134,7 +134,7 @@ function Aboutus() {
                     <div className="container-py-5-1 justify-content-center">
                         <div className="row-mb-4 justify-content-center">
                             <div className="col-lg-5-1 justify-content-center">
-                                <h2 className="display-4-font-weight-light justify-content-center">OUR TEAM</h2>
+                                <h2 id="ourteam"className="display-4-font-weight-light justify-content-center">OUR TEAM</h2>
                                 <p className="font-italic-text-muted-1 justify-content-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </div>
                         </div>

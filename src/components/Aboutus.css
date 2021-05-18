@@ -1,11 +1,13 @@
 
    .abouthead{
-    text-align: center !important;
-    font-family: gabriola!important;
+    text-align: center ;
+    font-family: Fantasy;
+  text-shadow: 2px 2px black;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 3%;
-    background-image: linear-gradient(to right,white, #C0C0C0 , white);
+    color:#0f67ac ;
+    background-image: linear-gradient(to right,white, #f9a634 , white);
   } 
   .about{
     cursor: pointer;
@@ -61,7 +63,7 @@
    width: 100%;
  } 
 .container-py-5-1{
-  background-color: #ffa500;
+  background-color: #f9a634;
    margin: auto;
    padding: 10px;
    height: auto;
@@ -70,8 +72,13 @@
 #team{
   margin: 0;
   padding: 0;
- 
- 
+  background-color: #f9a634;
+}
+#ourteam{
+  font-size: 40px;
+  font-weight: 700;
+  color: #0f67ac;
+  text-shadow: 1.5px 1.5px black;
 }
 #yashu{
 width: 80%;
@@ -82,11 +89,11 @@ display:inline-block;
   display:inline-block;
    }
 
-
-
-
-
-
+#ourteam{
+  font-size: 40px;
+  color: #0f67ac;
+  text-shadow: 1.5px 1.5px black;
+}
    #himu{
     background: white;
     margin-top: 40px;
@@ -120,7 +127,7 @@ display:inline-block;
       padding-top: 10px;
       font-size: 18px;
       font-weight: 500;
-      color: orange;
+      color: #f9a634;
     }
  .cardHoverText{
   visibility: hidden;
