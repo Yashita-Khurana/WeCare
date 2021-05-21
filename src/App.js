@@ -5,16 +5,26 @@ import Carousel from './components/Carousel';
 import Aboutus from './components/Aboutus';
 import Footer from './components/Footer';
 import Cards from './components/cards';
+import Yoga from './components/Yoga';
+import { BrowserRouter as Router , Switch , Route } from 'react-router-dom';
 function App() {
   return (
-    <div className="App">
     
-       <Navbar /> 
-       <Carousel/> 
-       <Aboutus/> 
-       <Cards/>
-       <Footer/> 
+    <div className="App">
+       <Router>
+       <Switch>
+       <Route exact path="/">
+         <Navbar/>
+         <Carousel/>
+         <Aboutus/>
+         <Cards/>
+         <Footer/>
+       </Route>
+       <Route path="/yoga" exact component={Yoga}/>
+       </Switch>
+       </Router> 
     </div>
+    
   );
 }
 
