@@ -58,6 +58,7 @@ body
 
 nav a.nav-link
 {
+
   letter-spacing: 0.0375rem;
   cursor: pointer;
 }
@@ -65,6 +66,7 @@ nav a.nav-link
 nav ul li 
 {
   text-transform: uppercase;
+  list-style: none;
 }
 
 .navbar-nav > li > a{
@@ -90,4 +92,12 @@ border-top: 0.1875rem solid var(--primary-dark);
   border-top: 0.1875rem solid var(--primary-orange);
  }
 
- 
+ #contact{
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+color: var(--primary-white) !important;
+border-top: 0.1875rem solid var(--primary-dark);
+ }
+#contact:hover{
+  border-top: 0.1875rem solid var(--primary-orange);
+ }
