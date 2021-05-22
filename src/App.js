@@ -6,6 +6,8 @@ import Aboutus from './components/Aboutus';
 import Footer from './components/Footer';
 import Cards from './components/cards';
 import Yoga from './components/Yoga';
+import Mycard from './components/Mycard'
+import Contactus from './components/Contactus'
 import { BrowserRouter as Router , Switch , Route } from 'react-router-dom';
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
          <Footer/>
        </Route>
        <Route path="/yoga" exact component={Yoga}/>
+       <Route path="/mycard" exact component={Mycard}/>
+       <Route path="/contactus" exact component={Contactus}/>
        </Switch>
        </Router> 
     </div>

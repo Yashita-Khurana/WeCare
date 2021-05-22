@@ -1,0 +1,21 @@
+.jumbo-picture {
+    background-image: url(https://static.pexels.com/photos/169524/pexels-photo-169524.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+  }
+  
+  .left > h1 {
+    color: white;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 15px;
+  }
+  
+  .left > p {
+    color: white;
+    text-align: left;
+    padding-left: 25px;
+  }
+  
