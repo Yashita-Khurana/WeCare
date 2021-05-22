@@ -23,9 +23,11 @@ const Navbar = () => {
               <a id="contact" className="nav-link">HOME</a>
             </li>
             </Link>
+            <Link style={{textDecoration:'none'}} to='/yoga'>
             <li className="nav-item">
-              <a className="nav-link" href="#about">About Us</a>
+              <a id="contact" className="nav-link">Yoga</a>
             </li>
+            </Link>
             <li className="nav-item">
               <a className="nav-link" href="#service">Services</a>
             </li>
