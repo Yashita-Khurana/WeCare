@@ -1,7 +1,11 @@
 import React from 'react'
 import './Contactus.css'
+import Nav from './Navbar';
 function Contactus() {
     return (
+     <div>
+        <Nav/>
+     
         <div className="body">
             
             <section class="contact_wrapper">
@@ -102,7 +106,7 @@ function Contactus() {
 
 </section>
         </div>
-           
+        </div>   
         
     )
 }

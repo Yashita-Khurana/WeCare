@@ -8,7 +8,7 @@ main{
       margin-top: 70px;
       font-size:6rem;
   }
-section{
+#one{
     background: #fff;
     border-radius: .25em;
     box-shadow: 0 .15em .175em hsla(0,0%,0%,.1);
@@ -39,7 +39,7 @@ section{
   p{
     line-height: 1.4;
   }
-  span{
+  #sp{
     color: #bbb;
     font-size: .75em;
     text-transform: uppercase;
