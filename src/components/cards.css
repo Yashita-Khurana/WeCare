@@ -24,7 +24,9 @@
       width: 33.3%;
     }
 }
-
+#yogatext{
+  font-style: italic;
+}
     .card-item {
       display: flex;
       flex-direction: column;

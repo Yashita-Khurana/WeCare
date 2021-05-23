@@ -15,8 +15,12 @@
 }
 #veranda{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 20px;
-    margin-bottom: 20px;
+padding-top: 15px;
+}
+#veranda2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 #diet{
     font-size: 45px;
@@ -208,4 +212,14 @@ text-shadow: 1px 1px black;
   .blog-card.alt .details {
     padding-left: 25px;
   }
+}
+#veranda2{
+  color: gray;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+#dietimg{
+  width: 80%;
+  border: 2px solid black;
+  box-shadow: 2px 2px black;
 }
