@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function cards() {
     return(
 <div>
-  <div class="container">
+  <div class="container1">
     <div class="row">
      <div class="col-sm-6">
        <div class="cards">
