@@ -20,8 +20,8 @@ function App() {
          <Navbar/>
          <Carousel/>
          <Aboutus/>
-         <Ourteam/>
          <Cards/>
+         <Ourteam/>
          <Footer/>
        </Route>
        <Route path="/yoga" exact component={Yoga}/>
