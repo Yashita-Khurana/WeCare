@@ -9,7 +9,16 @@
     color: #0f67ac;
     text-shadow: 1.5px 1.5px black;
   }
+.social-link
+{
+  justify-content: space-evenly;
+  padding: 3px;
+  color: #f9a634;
+}
 
+.social-link:hover{
+  color: #0f67ac;
+}
   
   #ourteam{
     font-size: 40px;

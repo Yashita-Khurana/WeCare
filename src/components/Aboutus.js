@@ -1,10 +1,10 @@
 import React from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
-import { faHeart } from '@fortawesome/free-solid-svg-icons';
-import { faPowerOff } from '@fortawesome/free-solid-svg-icons';
-import { faUsers } from '@fortawesome/free-solid-svg-icons';
+import { faClinicMedical } from '@fortawesome/free-solid-svg-icons';
+import { faUtensils } from '@fortawesome/free-solid-svg-icons';
+import { faHandHoldingMedical } from '@fortawesome/free-solid-svg-icons';
+import { faHeartbeat } from '@fortawesome/free-solid-svg-icons';
 import './Aboutus.css'
 function Aboutus() {
     return (
@@ -14,7 +14,7 @@ function Aboutus() {
     <div class="box-sm orange"></div>
     <div class="box-sm yellow "></div>
     <div class="box-sm green "></div>
-    <div class="box-sm blue "></div>
+    <div class="box-sm blue1 "></div>
     <div class="box-sm purple"></div>
   </div>
 
@@ -32,11 +32,11 @@ function Aboutus() {
                                     
                                     <div class="card-block">
                                         <div id="lora"className="about">
-                                            <h2 className="font-weight-light">Lorem ipsum dolor sit amet</h2>
+                                            <h2 className="font-weight-light">Welcome to WeCare</h2>
                                             <span>
-                                                <FontAwesomeIcon icon={faUsers} style={{ color: "black" }} />
+                                                <FontAwesomeIcon icon={faHeartbeat} style={{ color: "black" }} />
                                             </span>
-                                            <p className="font-italic text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><a href="#" className="btn btn-light px-5 rounded-pill shadow-sm">Learn More</a>
+                                            <p className="font-italic text-muted mb-4">WeCare is a Covid healthcare Website that includes tips to take care of your health during Covid Times through Yoga, Diet plans and selfcare tips for all age groups.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -44,11 +44,7 @@ function Aboutus() {
 
                                 <div  class="card back">
                                     <div class="card-block">
-                                        <h4 class="card-title">Back Card Title</h4>
-                                        <h6 class="card-subtitle mb-2 text-muted">Back Card subtitle</h6>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="card-link">Card link</a>
-                                        <a href="#" class="card-link">Another link</a>
+                                    <h1 id="abouthead" className="display-4">Family Healthcare at One Stop</h1>
                                     </div>
                                 </div>
 
@@ -69,12 +65,12 @@ function Aboutus() {
 
                                 <div class="card back">
                                     <div class="card-header">
-                                        Featured
+                                    <h1 id="abouthead" className="display-4">Sanitize Well</h1>
                                 </div>
                                     <div class="card-block">
-                                        <h4 class="card-title">Special title treatment</h4>
+                                        {/* <h4 class="card-title">Special title treatment</h4>
                                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a> */}
                                     </div>
                                 </div>
                             </div>
@@ -94,15 +90,15 @@ function Aboutus() {
 
                                 <div class="card back text-center">
                                     <div class="card-header">
-                                        Featured
+                                    <h1 id="abouthead" className="display-4">Stay Home Stay Safe</h1>
                                 </div>
                                     <div class="card-block">
-                                        <h4 class="card-title">Special title treatment</h4>
+                                        {/* <h4 class="card-title">Special title treatment</h4>
                                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a> */}
                                     </div>
                                     <div class="card-footer text-muted">
-                                        2 days ago
+                                        {/* 2 days ago */}
                                 </div>
                                 </div>
                             </div>
@@ -114,11 +110,11 @@ function Aboutus() {
                                 <div class="card front text-right">
                                     <div class="card-block">
                                         <div id="lora" className="about">
-                                            <h2 className="font-weight-light">Lorem ipsum dolor sit amet</h2>
+                                            <h2 className="font-weight-light">Immunity Wins</h2>
                                             <span>
-                                                <FontAwesomeIcon icon={faUsers} size='0.6x' style={{ color: "black" }} />
+                                                <FontAwesomeIcon icon={faHeartbeat} size='0.6x' style={{ color: "black" }} />
                                             </span>
-                                            <p className="font-italic text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><a href="#" className="btn btn-light px-5 rounded-pill shadow-sm">Learn More</a>
+                                            <p className="font-italic text-muted mb-4">During such times, It becomes mandatory to take care of yours and your family's health. Keep a check on your immunity with us.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -126,9 +122,8 @@ function Aboutus() {
 
                                 <div class="card back text-center">
                                     <div class="card-block">
-                                        <h4 class="card-title">Back Title aligned to the center</h4>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <h1 id="abouthead" className="display-4">Boost Your Immunity</h1>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -146,7 +141,7 @@ function Aboutus() {
     <div class="box-sm orange"></div>
     <div class="box-sm yellow "></div>
     <div class="box-sm green "></div>
-    <div class="box-sm blue "></div>
+    <div class="box-sm blue1 "></div>
     <div class="box-sm purple"></div>
   </div>
             <section id="service">
@@ -157,21 +152,21 @@ function Aboutus() {
                     <div className="row slideanim">
                         <div className="col-sm-4">
                             <span className="glyphicon glyphicon-off logo-small"></span>
-                            <FontAwesomeIcon icon={faPowerOff} size='3x' style={{ color: "black" }} />
-                            <h4>POWER</h4>
-                            <p>Lorem ipsum dolor sit amet..</p>
+                            <FontAwesomeIcon icon={faHandHoldingMedical} size='3x' style={{ color: "black" }} />
+                            <h4>CARE</h4>
+                            <p>We Care for You and your family..</p>
                         </div>
                         <div className="col-sm-4">
                             <span className="glyphicon glyphicon-heart logo-small"></span>
-                            <FontAwesomeIcon icon={faHeart} size='3x' style={{ color: "black" }} />
-                            <h4>LOVE</h4>
-                            <p>Lorem ipsum dolor sit amet..</p>
+                            <FontAwesomeIcon icon={faUtensils} size='3x' style={{ color: "black" }} />
+                            <h4>DIET TIPS</h4>
+                            <p>Diet that includes immunity rich Foods...</p>
                         </div>
                         <div className="col-sm-4">
                             <span className="glyphicon glyphicon-lock logo-small"></span>
-                            <FontAwesomeIcon icon={faBriefcase} size='3x' style={{ color: "black" }} />
-                            <h4>JOB DONE</h4>
-                            <p>Lorem ipsum dolor sit amet..</p>
+                            <FontAwesomeIcon icon={faClinicMedical} size='3x' style={{ color: "black" }} />
+                            <h4>HEALTH TIPS</h4>
+                            <p>Healthcare tips for COVID Times..</p>
                         </div>
                     </div>
                 </div>
