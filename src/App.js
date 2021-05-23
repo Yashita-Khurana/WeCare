@@ -11,6 +11,7 @@ import Contactus from './components/Contactus'
 import Ourteam from './components/Ourteam'
 import Diet from './components/Diet'
 import { BrowserRouter as Router , Switch , Route } from 'react-router-dom';
+import Isolation from './components/Isolation';
 function App() {
   return (
     
@@ -29,6 +30,7 @@ function App() {
        <Route path="/mycard" exact component={Mycard}/>
        <Route path="/contactus" exact component={Contactus}/>
        <Route path="/diet" exact component={Diet}/>
+       <Route path="/isolation" exact component={Isolation}/>
        </Switch>
        </Router> 
     </div>

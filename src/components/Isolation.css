@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap');
+
+:root {
+  box-sizing: border-box;
+  --dark: #3B4050;
+  --darker: #2E323F;
+  --grey: #e0e0eb;
+  --white: #FFF;
+  --gold: #A59678;
+  --fsH2: clamp(1.5rem, 4vw, 1.875rem);
+  --fsH5: clamp(1.125rem, 3.5vw, 1.3125rem);
+  --fsP: clamp(.9rem, 3vw, 1.125rem);
+  --fsFootP: clamp(.8rem, .5vw, 1rem);
+  --sectPad: 2em 0;
+}
+
+
+#cont {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+#ban {
+  padding: var(--sectPad);
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+#ban h1 {
+  margin-top: 0;
+  font-family: 'Oswald';
+  font-size: clamp(2.75rem, 6vw, 5.625rem);
+  line-height: 1.125em;
+}
+
+#th {
+  color: var(--gold);
+  font-size: 75px;
+
+}
+
+#ban p,
+.advantage p {
+  margin-bottom: 0;
+  font-size: var(--fsP);
+  line-height: 1.5em;
+}
+
+#ban p {
+  margin-bottom: 1.5em;
+}
+#fiw{
+    height: 40vh;
+    font-size: 65px;
+}
+.action-btn {
+    display: inline-block;
+    padding: .5em 1em;
+    border-radius: 1em;
+    line-height: .5em;
+    background-color: var(--gold);
+    color: var(--white);
+  }
+
+  .action-btn:hover,
+.action-btn:focus,
+.action-btn:focus-within {
+  background-color: transparent;
+  color: var(--white);  
+  box-shadow: inset 0 0 0 3px var(--gold);
+  opacity: 1;
+}
+.action-btn--lg {
+    padding: .75em 1.5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Oswald';
+    font-size: clamp(.95rem, 3.5vw, 1.5rem);
+  }
+@media only screen and (min-width: 700px) {
+  .advantage + .advantage {
+    margin-top: 0;
+  }
+
+  #ban .flex-item-wrapper,
+  footer .advantage {
+    width: 75%;
+  }
+
+  .sales-points #cont,
+  aside {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sales-points .advantage {
+    padding: 0 1em;
+  }
+
+  .advantage--dark {
+    padding: 1em;
+  }
+
+  .advantage,
+  .footer__nav__item {
+    flex-basis: 33%;
+  }
+
+  .footer__nav {
+    flex-wrap: nowrap;
+  }
+  
+}
+
+@media only screen and (min-width: 1000px) {
+  :root {
+    --sectPad: 5em 0;
+  }
+
+  .flex-container {
+    flex-wrap: nowrap;
+  }
+
+  .header__menu--mobile {
+    display: none;
+  }
+
+  .header__nav {
+    visibility: visible;
+    position: relative;
+    height: auto;
+    flex-basis: auto;
+  }
+
+  .header__nav ul {
+    display: flex;
+  }
+
+  .nav__link:not(.header__nav li:last-child .nav__link) {
+    padding: 0 2em 0 0;
+    line-height: 1.8em;
+  }
+
+  .action-btn {
+    line-height: .8em;
+  }
+  
+  #ban h1 {
+    margin-bottom: 0;
+    flex-basis: 50%;
+  }
+
+  #ban .flex-item-wrapper {
+    flex-basis: 45%;
+  }
+
+  #ban #cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .advantage,
+  .footer__nav__item {
+    flex-basis: 30%;
+  }
+
+  main#cont {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main__article {
+    flex-basis: 60%;
+    flex-shrink: 0;
+    margin-right: 4em;
+  }
+
+  .main__article p {
+    margin-bottom: 2em;
+  }
+
+  .main__article p ~ p {
+    margin-top: 2em;
+    margin-bottom: 0;
+  }
+
+  aside {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .advantage--dark {
+    flex-basis: auto;
+  }
+
+  .advantage--dark + .advantage--dark {
+    margin-top: 1em;
+  }
+
+  footer .flex-item-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer .advantage {
+    flex-basis: 45%;
+    width: auto;
+  }
+
+  .footer__nav {
+    margin: 0;
+    flex-basis: 45%;
+  }
+
+  .footer__nav__item {
+    flex-basis: auto;
+    margin-bottom: 0;
+  }
+
+  .footer__nav__item + .footer__nav__item {
+    margin-left: 2em;
+  }
+}

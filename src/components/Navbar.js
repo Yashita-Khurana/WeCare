@@ -33,12 +33,12 @@ const Navbar = () => {
               <a id="contact"className="nav-link" href="#service">Diet</a>
             </li>
             </Link>
+            <Link style={{textDecoration:'none'}} to='/isolation'>
             <li className="nav-item">
-              <a className="nav-link" href="#">quarantine</a>
+              <a id="contact"className="nav-link" href="#service">quarantine</a>
             </li>
-            {/* <li className="nav-item">
-              <a className="nav-link" href="#teams">Our team</a>
-            </li> */}
+            </Link>
+           
             <Link style={{textDecoration:'none'}} to='/mycard'>
             <li className="nav-item">
               <a id="contact" className="nav-link">Self care</a>
