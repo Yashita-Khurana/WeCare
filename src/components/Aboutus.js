@@ -15,17 +15,17 @@ function Aboutus() {
                 </div>
 
 
-                <div class="container">
-                    <div class="row">
+                <div id="con" class="container">
+                    <div id="row" class="row">
                         <div class="col-md-6 card-container">
                             <div class="card-flip">
-                                <div class="card front">
-                                    <span class="fa fa-4x fa-smile-o text-center"></span>
+                                <div id="card"class="card front">
+                                    
                                     <div class="card-block">
-                                        <div className="about">
+                                        <div id="lora"className="about">
                                             <h2 className="font-weight-light">Lorem ipsum dolor sit amet</h2>
                                             <span>
-                                                <FontAwesomeIcon icon={faUsers} size='0.6x' style={{ color: "black" }} />
+                                                <FontAwesomeIcon icon={faUsers} style={{ color: "black" }} />
                                             </span>
                                             <p className="font-italic text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><a href="#" className="btn btn-light px-5 rounded-pill shadow-sm">Learn More</a>
                                         </div>
@@ -33,7 +33,7 @@ function Aboutus() {
                                 </div>
 
 
-                                <div class="card back">
+                                <div  class="card back">
                                     <div class="card-block">
                                         <h4 class="card-title">Back Card Title</h4>
                                         <h6 class="card-subtitle mb-2 text-muted">Back Card subtitle</h6>
@@ -104,7 +104,7 @@ function Aboutus() {
                             <div class="card-flip">
                                 <div class="card front text-right">
                                     <div class="card-block">
-                                        <div className="about">
+                                        <div id="lora" className="about">
                                             <h2 className="font-weight-light">Lorem ipsum dolor sit amet</h2>
                                             <span>
                                                 <FontAwesomeIcon icon={faUsers} size='0.6x' style={{ color: "black" }} />
@@ -129,107 +129,9 @@ function Aboutus() {
 
 
             </section>
-            <section id="teams">
-                <div className="bg-light-py-5-1  justify-content-center">
-                    <div className="container-py-5-1 justify-content-center">
-                        <div className="row-mb-4 justify-content-center">
-                            <div className="col-lg-5-1 justify-content-center">
-                                <h2 id="ourteam"className="display-4-font-weight-light justify-content-center">OUR TEAM</h2>
-                                <p className="font-italic-text-muted-1 justify-content-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-
-                        <div id="team" className="row justify-content-center">
-                            {/* <div class="col-sm-3 mb-5 justify-content-center">
-                                <div id="yashu" className="bg-white rounded-shadow py-5 justify-content-center">
-                                    <h5 className="mb-0">YASHITA</h5><span className="small text-uppercase text-muted">Team-Leader</span>
-                                    <ul className="social mb-0 list-inline mt-3">
-                                        <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-facebook-f"></i></a></li>
-                                        <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-twitter"></i></a></li>
-                                        <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-instagram"></i></a></li>
-                                        <li className="list-inline-item"><a href="#" className="social-link"><i className="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div> */}
 
 
-                            <div class="col-sm-3 mb-5">
-                                <div id="himu" className="bg-white rounded-shadow py-5 justify-content-center">
-                                    <div class="cardTop">
-                                        <img src="pic.png" alt="" width="125" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
-                                    </div>
-                                    <div class="cardBottom">
-                                        <div class="cardText">
-                                            <h3 id="title" className="mb-0">YASHITA 💩</h3>
-                                            <h4 className="small text-uppercase text-muted" id="cardInfo">Student</h4>
-                                            <div class="cardHoverText">
-                                                <ul className="social mb-0 list-inline mt-3">
-                                                    <p id="hidpara">Time pass, tang<li className="list-inline-item">
-                                                        <a href="#" className="social-link">F<i className="fa fa-facebook-f"></i></a></li>
-                                                        <li className="list-inline-item"><a href="#" className="social-link">T<i className="fa fa-twitter"></i></a></li>
-                                                        <li className="list-inline-item"><a href="#" className="social-link">I<i className="fa fa-instagram"></i></a></li>
-                                                        <li className="list-inline-item"><a href="#" className="social-link">L<i className="fa fa-linkedin"></i></a></li>
-                                                    </p>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                            <div class="col-sm-3 mb-5">
-                                <div id="himu" className="bg-white rounded-shadow py-5 justify-content-center">
-                                    <div class="cardTop">
-                                        <img src="pic.png" alt="" width="125" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
-                                    </div>
-                                    <div class="cardBottom">
-                                        <div class="cardText">
-                                            <h3 id="title" className="mb-0">HIMANSHU 👻</h3>
-                                            <h4 className="small text-uppercase text-muted" id="cardInfo">Student</h4>
-                                            <div class="cardHoverText">
-                                                <ul className="social mb-0 list-inline mt-3">
-                                                    <p id="hidpara">Lora lipsum as opposed to using 'Content here, content here', making it 'lorem ipsum' will uncover many web sites still in their infan
-                                                        <li className="list-inline-item">
-                                                            <a href="#" className="social-link">F<i className="fa fa-facebook-f"></i></a></li>
-                                                        <li className="list-inline-item"><a href="#" className="social-link">T<i className="fa fa-twitter"></i></a></li>
-                                                        <li className="list-inline-item"><a href="#" className="social-link">I<i className="fa fa-instagram"></i></a></li>
-                                                        <li className="list-inline-item"><a href="#" className="social-link">L<i className="fa fa-linkedin"></i></a></li>
-                                                    </p>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-3 mb-5">
-                                <div id="himu" className="bg-white rounded-shadow py-5 justify-content-center">
-                                    <div class="cardTop">
-                                        <img src="pic.png" alt="" width="125" className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
-                                    </div>
-                                    <div class="cardBottom">
-                                        <div class="cardText">
-                                            <h3 id="title" className="mb-0">TARA ⭐💫</h3>
-                                            <h4 className="small text-uppercase text-muted" id="cardInfo">Student</h4>
-                                            <div class="cardHoverText">
-                                                <ul className="social mb-0 list-inline mt-3">
-                                                    <p id="hidpara">Time pass, tang<li className="list-inline-item">
-                                                        <a href="#" className="social-link">F<i className="fa fa-facebook-f"></i></a></li>
-                                                        <li className="list-inline-item"><a href="#" className="social-link">T<i className="fa fa-twitter"></i></a></li>
-                                                        <li className="list-inline-item"><a href="#" className="social-link">I<i className="fa fa-instagram"></i></a></li>
-                                                        <li className="list-inline-item"><a href="#" className="social-link">L<i className="fa fa-linkedin"></i></a></li>
-                                                    </p>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            
             <hr className="new5"></hr>
             <section id="service">
                 <div className="container-fluid text-center">

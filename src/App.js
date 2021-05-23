@@ -8,6 +8,7 @@ import Cards from './components/cards';
 import Yoga from './components/Yoga';
 import Mycard from './components/Mycard'
 import Contactus from './components/Contactus'
+import Ourteam from './components/Ourteam'
 import { BrowserRouter as Router , Switch , Route } from 'react-router-dom';
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
          <Navbar/>
          <Carousel/>
          <Aboutus/>
+         <Ourteam/>
          <Cards/>
          <Footer/>
        </Route>
