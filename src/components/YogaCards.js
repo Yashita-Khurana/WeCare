@@ -4,41 +4,41 @@ function YogaCards() {
   return (
     <div>
         <div>
-            <h1 className="heading">F.A.C.T.S</h1>
+            <h1 className="heading">F . A . C . T . S</h1>
             </div>
-        <main>
+        <main id="main1">
             
         <section id="one">
-
     <figure>
-      <img src="https://images.pexels.com/photos/944743/pexels-photo-944743.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="Free Stock Photo from pexels.com"/>
+    <iframe  src="https://www.youtube.com/embed/jeGT1VXwfx4"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
     </figure>
-    <article>
-      <span id="sp">Social Media</span>
-      <h1>Keep cool when you’re under attack</h1>
-      <p>Learn how to maintain your emotional balance when strangers start attacking you online.</p>
+    <article id="art">
+      <span id="sp">Meditate</span>
+      <h1 id="cardhead">Meditate for Peace</h1>
+      <p id="para">Learn how to calm your negative thoughts and yourself through meditation techniques.</p>
     </article>
   </section>
   
   <section id="one">
     <figure>
-      <img src="https://images.pexels.com/photos/821653/pexels-photo-821653.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="Free Stock Photo from pexels.com"/>
+    <iframe  src="https://www.youtube.com/embed/ZU4sSOmf8To"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </figure>
-    <article>
-      <span id="sp">Photography</span>
-      <h1>Shooting pictures like professionals</h1>
-      <p>Exposure, rule of thirds, ISO: what do you really need to become a professional photographer?</p>
+    <article id="art">
+      <span id="sp">Breathing</span>
+      <h1 id="cardhead">Deep breathing always helps</h1>
+      <p id="para">Learn some deep breathing techniques to relax the body and brain.</p>
     </article>
   </section>
   
   <section id="one">
     <figure>
-      <img src="https://images.pexels.com/photos/1391421/pexels-photo-1391421.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="Free Stock Photo from pexels.com"/>
+    <iframe src="https://www.youtube.com/embed/tsirEJLlk10"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </figure>
-    <article>
-      <span id="sp">Travel</span>
-      <h1>Top 5 beaches to visit next holiday</h1>
-      <p>Time to change your destination and find out paradises to spend your next holiday.</p>
+    <article id="art">
+      <span id="sp">Yoga</span>
+      <h1 id="cardhead">The old saying, "Yoga se hi hoga"</h1>
+      <p id="para">Ancient studies prove that even a little yoga everyday can make your immunity stronger.</p>
     </article>
   </section>
   </main>
