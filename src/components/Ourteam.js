@@ -12,7 +12,7 @@ function Ourteam() {
                         <div className="row-mb-4 justify-content-center">
                             <div className="col-lg-5-1 justify-content-center">
                                 <h2 id="ourteam"className="display-4-font-weight-light justify-content-center">OUR TEAM</h2>
-                                <p className="font-italic-text-muted-1 justify-content-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p className="font-italic-text-muted-1 justify-content-center">Teamwork makes the dream work.</p>
                             </div>
                         </div>
 
@@ -25,10 +25,10 @@ function Ourteam() {
                                     <div id="cardBottom" class="cardBottom">
                                         <div id="cardText"class="cardText">
                                             <h3 id="title" className="mb-0">YASHITA</h3>
-                                            <h4 className="small text-uppercase text-muted" id="cardInfo">Student</h4>
+                                            <h4 className="small text-uppercase text-muted" id="cardInfo">Team Lead</h4>
                                             <div id="cardHoverText" class="cardHoverText">
                                                 <ul className="social mb-0 list-inline mt-3">
-                                                    <p id="hidpara">Time pass, tang</p>
+                                                    <p id="hidpara">ReactJS , Content , CSS</p>
                                                     <a href="https://github.com/Yashita-Khurana" className="social-link"><GitHubIcon/></a>
                                                        <a href="#" className="social-link"><InstagramIcon/></a>
                                                        <a href="https://www.linkedin.com/in/yashita-khurana-a70a59168/" className="social-link"><LinkedInIcon/></a>
@@ -49,10 +49,10 @@ function Ourteam() {
                                     <div id="cardBottom" class="cardBottom">
                                         <div id="cardText" class="cardText">
                                             <h3 id="title" className="mb-0">HIMANSHU</h3>
-                                            <h4 className="small text-uppercase text-muted" id="cardInfo">Student</h4>
+                                            <h4 className="small text-uppercase text-muted" id="cardInfo">Team member</h4>
                                             <div id="cardHoverText"class="cardHoverText">
                                                 <ul className="social mb-0 list-inline mt-3">
-                                                    <p id="hidpara">Team member</p>
+                                                    <p id="hidpara">Bootstrap , ReactJS , Responsiveness</p>
                                                         
                                                             <a href="https://github.com/himanshu-1808" className="social-link"><GitHubIcon/></a>
                                                        <a href="#" className="social-link"><InstagramIcon/></a>
@@ -72,10 +72,10 @@ function Ourteam() {
                                     <div id="cardBottom" class="cardBottom">
                                         <div id="cardText" class="cardText">
                                             <h3 id="title" className="mb-0">TARANPREET</h3>
-                                            <h4 className="small text-uppercase text-muted" id="cardInfo">Student</h4>
+                                            <h4 className="small text-uppercase text-muted" id="cardInfo">Team Member</h4>
                                             <div id="cardHoverText" class="cardHoverText">
                                                 <ul className="social mb-0 list-inline mt-3">
-                                                <p id="hidpara">Time pass, tang</p>
+                                                <p id="hidpara">CSS , Bootstrap , Content</p>
                                                     <a href="https://github.com/taranpreet16" className="social-link"><GitHubIcon/></a>
                                                        <a href="#" className="social-link"><InstagramIcon/></a>
                                                        <a href="https://www.linkedin.com/in/himanshu-panchal-1a897a1b5/" className="social-link"><LinkedInIcon/></a>
