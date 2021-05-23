@@ -4,7 +4,9 @@ hr {
     margin: 40px;
 
   }
-  
+  .text1{
+    color:#f9a634;
+  }
   hr.hr-1 {
     border: 0;
    
@@ -44,6 +46,9 @@ hr {
       text-align: left;
       font-size: 25px;
   }
+  #points{
+    font-size: 18px;
+  }
   @media only screen and (max-width: 600px) {
     .col-md-6 >h2,span{
       font-size: 35px;
@@ -54,6 +59,9 @@ hr {
     }
     .col-md-6 >p{
       font-size: 20px;
+    }
+    #points{
+      font-size: 16px;
     }
   }
   @media only screen and (max-width: 768px) {
@@ -71,6 +79,9 @@ hr {
       width: 350px;
       height: 300px;
     }
+    #points{
+      font-size: 14px;
+    }
   }
   @media only screen and (max-width: 400px) {
     .col-md-6 >h2,span{
@@ -86,5 +97,8 @@ hr {
     .col-md-6 > img{
       width: 400px;
       height: 200px;
+    }
+    #points{
+      font-size: 13px;
     }
   }

@@ -29,17 +29,17 @@ const Navbar = () => {
             </li>
             </Link>
             <li className="nav-item">
-              <a className="nav-link" href="#service">Services</a>
+              <a className="nav-link" href="#service">Diet</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Guides</a>
+              <a className="nav-link" href="#">quarantine</a>
             </li>
             {/* <li className="nav-item">
               <a className="nav-link" href="#teams">Our team</a>
             </li> */}
             <Link style={{textDecoration:'none'}} to='/mycard'>
             <li className="nav-item">
-              <a id="contact" className="nav-link">my card</a>
+              <a id="contact" className="nav-link">Self care</a>
             </li>
             </Link>
             
