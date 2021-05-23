@@ -9,6 +9,15 @@ import './Aboutus.css'
 function Aboutus() {
     return (
         <div>
+            <div class="box">
+    <div class="box-sm red"></div>
+    <div class="box-sm orange"></div>
+    <div class="box-sm yellow "></div>
+    <div class="box-sm green "></div>
+    <div class="box-sm blue "></div>
+    <div class="box-sm purple"></div>
+  </div>
+
             <section id="about">
                 <div className="abouthead">
                     <h1 id="abouthead" className="display-4">ABOUT US</h1>
@@ -132,7 +141,14 @@ function Aboutus() {
 
 
             
-            <hr className="new5"></hr>
+            <div class="box">
+    <div class="box-sm red"></div>
+    <div class="box-sm orange"></div>
+    <div class="box-sm yellow "></div>
+    <div class="box-sm green "></div>
+    <div class="box-sm blue "></div>
+    <div class="box-sm purple"></div>
+  </div>
             <section id="service">
                 <div className="container-fluid text-center">
                     <h2>SERVICES</h2>

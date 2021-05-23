@@ -3,12 +3,52 @@
     text-align: center ;
     font-family: Fantasy;
   text-shadow: 2px 2px black;
-  
-  
     color:#0f67ac ;
-    background-image: linear-gradient(to right,white, #f9a634 , white);
   } 
- 
+  .box {
+    display: flex;
+    width: 100%;
+    height: 12px;
+    margin: 5px 0px 0px 0px;
+    margin-top: 3%;
+  }
+  
+  .box-sm {
+    height: 12px;
+    margin: 0;
+    flex-grow: 1;
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .box-sm:hover {
+    flex-grow: 12;
+  }
+
+  .red {
+    background-color: #FF5852;
+  }
+  
+  .orange {
+    background-color: #FF9000;
+  }
+  
+  .yellow {
+    background-color: #FFD300;
+  }
+  
+  .green {
+    background-color: #3DCD49;
+  }
+  
+  .blue {
+    background-color: #0089D7;
+  }
+  
+  .purple {
+    background-color: #9E44C4;
+  }  
+
   #about{
     cursor: pointer;
     background-color:#fff;
@@ -16,9 +56,8 @@
     padding-top: 20px;
     padding-bottom: 30px;
     width: 100%;
-    background: linear-gradient(
-      to right, #0f67ac , #f9a634
-    ); 
+    margin-top: 3%;
+    background:linear-gradient(to right,white, #f9a634 , white);
   } 
     #about h1 {
     padding: 10px 0;
