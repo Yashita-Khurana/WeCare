@@ -20,9 +20,19 @@ function Nutri() {
           </ul>
         </div>
         <div class="description">
-          <h1>Children (0-13)</h1>
+          <h1>Children (0-13 yrs)</h1>
           <h2>Don't Eat Less, Eat Right</h2>
-          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.vfusDiSDfD siudhdfiuSDHfiuHDfiu iudhviuSDHDfiHEifu LIDhdflSfoEf sidsdivsdh9SD FS If  fSDfo itecto obcaecati enim diitecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.vfusDiSDfD siudhdfiuSDHfiuHDfiu iudhviuSDHDfiHEifu LIDhdflSfoEf sidsdivsdh9SD FS If  fSDitecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.vfusDiSDfD siudhdfiuSDHfiuHDfiu iudhviuSDHDfiHEifu LIDhdflSfoEf sidsdivsdh9SD FS If  fSDitecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.vfusDiSDfD siudhdfiuSDHfiuHDfiu iudhviuSDHDfiHEifu LIDhdflSfoEf sidsdivsdh9SD FS If  fSDcta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.vfusDiSDfD siudhdfiuSDHfiuHDfiu iudhviuSDHDfiHEifu LIDhdflSfoEf sidsdivsdh9SD FS If  fSD</p>
+          <ul>
+            <li>For fruit, toddlers between 2 and 3 years old need about 1 cup of fruit per day. Children between 4 and 13 need 1.5 cups of fruit per day. Girls between 14 and 18 need 1.5 cups of fruit per day, and boys that age need 2 cups.</li>
+            <li>
+            Make sure your child has 8–10 cups of water every day. This includes water from all sources like other drinks and food.
+            </li>
+            <li>Make sure your child eats unsaturated fats (found in fish, avocado, nuts, olive oil, soy, canola, sunflower and corn oils) rather than saturated fats (found in fatty meat, butter, coconut oil, cream, cheese, ghee and lard).</li>
+            <li>
+            When cooking and preparing food for your child, limit the amount of salt and high-sodium condiments (e.g. soy sauce and fish sauce).
+            </li>
+
+          </ul>
 
         </div>
       </div>
@@ -30,29 +40,8 @@ function Nutri() {
         <div class="meta">
           <div class="photo2"></div>
           <ul class="details">
-            <li class="author"><a href="#">Jane Doe</a></li>
-            <li class="date">July. 15, 2015</li>
-            <li class="tags">
-              <ul>
-                <li><a href="#">Learn</a></li>
-                <li><a href="#">Code</a></li>
-                <li><a href="#">JavaScript</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        <div class="description">
-          <h1>Mastering the Language</h1>
-          <h2>Java is not the same as JavaScript</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
-        </div>
-      </div>
-      <div class="blog-card">
-        <div class="meta">
-          <div class="photo1" ></div>
-          <ul class="details">
-            <li class="author"><a href="#">Children</a></li>
-            <li class="date">(0-13)</li>
+            <li class="author"><a href="#">Teenage and Adults</a></li>
+            <li class="date">(14-35)</li>
             <li class="tags">
               <ul>
                 <li><a href="#">Nutrition Plan (during covid)</a></li>
@@ -62,9 +51,49 @@ function Nutri() {
           </ul>
         </div>
         <div class="description">
-          <h1>Children (0-13)</h1>
-          <h2>Don't Eat Less, Eat Right</h2>
-          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.vfusDiSDfD siudhdfiuSDHfiuHDfiu iudhviuSDHDfiHEifu LIDhdflSfoEf sidsdivsdh9SD FS If  fSDfo itecto obcaecati enim diitecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.vfusDiSDfD siudhdfiuSDHfiuHDfiu iudhviuSDHDfiHEifu LIDhdflSfoEf sidsdivsdh9SD FS If  fSDitecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.vfusDiSDfD siudhdfiuSDHfiuHDfiu iudhviuSDHDfiHEifu LIDhdflSfoEf sidsdivsdh9SD FS If  fSDitecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.vfusDiSDfD siudhdfiuSDHfiuHDfiu iudhviuSDHDfiHEifu LIDhdflSfoEf sidsdivsdh9SD FS If  fSDcta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.vfusDiSDfD siudhdfiuSDHfiuHDfiu iudhviuSDHDfiHEifu LIDhdflSfoEf sidsdivsdh9SD FS If  fSD</p>
+        <h1>Teens and Adults (14-35 yrs)</h1>
+          <h2>Don't Stress and Binge-eat</h2>
+          <ul>
+            <li>Get your dose of calcium with dairy- Dairy products such as milk, curd, paneer, and others are rich sources of calcium and should be a regular part of a teenager's diet.</li>
+            <li>
+            Proteins are very vital and Rich sources of protein include fish, lean meats, and eggs. Vegetarian sources include legumes, beans, lentils, and soy.
+            </li>
+            <li>Iron is an important nutrient, especially for boosting immunity. Include iron-rich foods such as leafy green vegetables in a teenager's diet to keep them safe from diseases.</li>
+            <li>
+            Vitamin C and vitamin D are being touted as the heroes against the novel coronavirus infection. Both nutrients are known to boost immunity and improve the disease-fighting capabilities of the body.
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="meta">
+          <div class="photo3" ></div>
+          <ul class="details">
+            <li class="author"><a href="#">Middle and OldAge</a></li>
+            <li class="date">(36-65+)</li>
+            <li class="tags">
+              <ul>
+                <li><a href="#">Nutrition Plan (during covid)</a></li>
+
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="description">
+        <h1>Middle and OldAge (36-65+ yrs)</h1>
+          <h2>Make sure what food goes inside the body</h2>
+          <ul>
+            <li>Avoid industrially produced trans fats. These are often found in processed food, fast food, snack food, fried food, frozen pizza, pies, cookies, margarines and spreads.Eat less salt and sugar</li>
+            <li>
+            When cooking and preparing food, limit the amount of salt and high-sodium condimentsLimit your daily salt intake to approx 1 teaspoon, and use iodized salt.
+            </li>
+            <li>Eat at home to reduce your rate of contact with other people . We recommend maintaining social distancing. That is not always possible in crowded social settings like restaurants and cafes.</li>
+            <li>
+            Choose white meat (e.g. poultry) and fish, which are generally low in fat, rather than red meat.Avoid processed meats because they are high in fat and salt.
+            </li>
+
+          </ul>
 
         </div>
       </div>

@@ -57,7 +57,7 @@ text-shadow: 1px 1px black;
   background-size: cover;
   background-position: center;
   transition: transform 0.2s;
-  background-image: url(https://images.unsplash.com/photo-1505576399279-565b52d4ac71?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bnV0cml0aW9ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+  background-image: url(https://i.pinimg.com/originals/af/11/1c/af111ca02a38826da82ef4bbe01adf9d.jpg);
 }
 .blog-card .photo2 {
     position: absolute;
@@ -68,7 +68,18 @@ text-shadow: 1px 1px black;
     background-size: cover;
     background-position: center;
     transition: transform 0.2s;
-    background-image: url(https://images.unsplash.com/photo-1571750007475-09cc42b58613?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bnV0cml0aW9ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+    background-image: url(https://c.stocksy.com/a/G2o300/z9/907324.jpg);
+  }
+  .blog-card .photo3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.2s;
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/345-pai2860-ae-01.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f1b12693344f4a3f5ab1b57e3f43eaed);
   }
 .blog-card .details,
 .blog-card .details ul {
