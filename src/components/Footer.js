@@ -19,18 +19,18 @@ function Footer() {
                 <div className="footer">
                     <div className="column">
                         <ul>
-                            <li className="title">LEVIOOSA</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                            <li className="title">WE CARE</li>
+                            <li>WeCare is a Covid healthcare Website that includes tips to take care of your health during Covid Times through Yoga, Diet plans and selfcare tips for all age groups.</li>
                         </ul>
                     </div>
 
                     <div className="column">
                         <ul>
-                            <li className="title">OTHER LINKS</li>
-                            <li><a href="#">Terms & Conditions</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Cookie Policy</a></li>
-                            <li><a href="#">Tickets</a></li>
+                            <li className="title">OUR SERVICES</li>
+                            <li><a href="#">Immunity Yoga</a></li>
+                            <li><a href="#">Diet Tips</a></li>
+                            <li><a href="#">Home Isolatiom</a></li>
+                            <li><a href="#">Self Healthcare</a></li>
                         </ul>
                     </div>
 
@@ -38,8 +38,8 @@ function Footer() {
                         <ul>
                             <li className="title">SHORT CUT</li>
                             <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Our Mission</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Our Team</a></li>
                             <li><a href="#">About Us</a></li>
                         </ul>
                     </div>
