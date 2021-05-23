@@ -12,11 +12,13 @@ function Mycards() {
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
-                                    <img src="https://cdn.pixabay.com/photo/2018/03/30/15/11/deer-3275594_960_720.jpg" alt="" />
+                                    <img src="https://i.pinimg.com/736x/50/af/1a/50af1a67e06d6e8c1574ff34b7e1c948.jpg" alt="" />
                                 </div>
                                 <div class="text-container">
-                                    <h6>Title 01</h6>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                    <h6>Infants</h6>
+                                    <p>Healthy children will not fear life if their elders have integrity enough not to fear death.
+                                       Come and look upon how to take care of children in these times.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -27,11 +29,11 @@ function Mycards() {
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
-                                    <img src="https://cdn.pixabay.com/photo/2018/04/09/19/55/low-poly-3305284_960_720.jpg" alt="" />
+                                    <img src="https://images.squarespace-cdn.com/content/v1/5f725a967ecc7a2438c5d83e/1614190216553-7UB47CNZ51QHK3U8F7E7/ke17ZwdGBToddI8pDm48kGDFs3p-nz35CbRQ2Jo8JGZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UTH5xSB9_mrwM5wZWnId5J3HT5Rq2xbQS_r-qHUs8DvLm7cT0R_dexc_UL_zbpz6JQ/group-of-teens-with-computer" alt="" />
                                 </div>
                                 <div class="text-container">                                    
-                                    <h6>Title 02</h6>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                    <h6>Teenage and Adults</h6>
+                                    <p>Youth are the upcoming drivers of life, society and responsiblities.So, It needs to be healthy so that they can take the world go wealthy.</p>
                                 </div>
                             </div>
                         </div>
@@ -43,11 +45,13 @@ function Mycards() {
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
-                                    <img src="https://cdn.pixabay.com/photo/2018/03/30/15/12/dog-3275593_960_720.jpg" alt="" />
+                                    <img src="https://i.pinimg.com/564x/2e/69/79/2e6979af3169b126e68c5f859dc47590.jpg" alt="" />
                                 </div>
                                 <div class="text-container">
-                                    <h6>Title 04</h6>
-                                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                    <h6>Middle and Old ages</h6>
+                                   <p>Aging is just another word for living.
+                                       Older and middle aged people have weak immune systems amd therefore needs
+                                       extra care and attention.</p>
                                 </div>
                             </div>
                         </div>
