@@ -1,5 +1,8 @@
 import React from 'react'
 import './Ourteam.css'
+import GitHubIcon from '@material-ui/icons/GitHub';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 function Ourteam() {
     return (
         <div>
@@ -25,13 +28,11 @@ function Ourteam() {
                                             <h4 className="small text-uppercase text-muted" id="cardInfo">Student</h4>
                                             <div id="cardHoverText" class="cardHoverText">
                                                 <ul className="social mb-0 list-inline mt-3">
-                                                    <p id="hidpara">Time pass, tang<li className="list-inline-item">
-                                                        <a href="#" className="social-link">F<i className="fa fa-facebook-f"></i></a></li>
-                                                        <li className="list-inline-item"><a href="#" className="social-link">T<i className="fa fa-twitter"></i></a></li>
-                                                        <li className="list-inline-item"><a href="#" className="social-link">I<i className="fa fa-instagram"></i></a></li>
-                                                        <li className="list-inline-item"><a href="#" className="social-link">L<i className="fa fa-linkedin"></i></a></li>
-                                                    </p>
-                                                </ul>
+                                                    <p id="hidpara">Time pass, tang</p>
+                                                    <a href="https://github.com/himanshu-1808" className="social-link"><GitHubIcon/></a>
+                                                       <a href="#" className="social-link"><InstagramIcon/></a>
+                                                       <a href="https://www.linkedin.com/in/himanshu-panchal-1a897a1b5/" className="social-link"><LinkedInIcon/></a>
+                                                    </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -51,13 +52,12 @@ function Ourteam() {
                                             <h4 className="small text-uppercase text-muted" id="cardInfo">Student</h4>
                                             <div id="cardHoverText"class="cardHoverText">
                                                 <ul className="social mb-0 list-inline mt-3">
-                                                    <p id="hidpara">Team member
-                                                        <li className="list-inline-item">
-                                                            <a href="#" className="social-link">F<i className="fa fa-facebook-f"></i></a></li>
-                                                        <li className="list-inline-item"><a href="#" className="social-link">T<i className="fa fa-twitter"></i></a></li>
-                                                        <li className="list-inline-item"><a href="#" className="social-link">I<i className="fa fa-instagram"></i></a></li>
-                                                        <li className="list-inline-item"><a href="#" className="social-link">L<i className="fa fa-linkedin"></i></a></li>
-                                                    </p>
+                                                    <p id="hidpara">Team member</p>
+                                                        
+                                                            <a href="https://github.com/himanshu-1808" className="social-link"><GitHubIcon/></a>
+                                                       <a href="#" className="social-link"><InstagramIcon/></a>
+                                                       <a href="https://www.linkedin.com/in/himanshu-panchal-1a897a1b5/" className="social-link"><LinkedInIcon/></a>
+                                                    
                                                 </ul>
                                             </div>
                                         </div>
@@ -75,13 +75,11 @@ function Ourteam() {
                                             <h4 className="small text-uppercase text-muted" id="cardInfo">Student</h4>
                                             <div id="cardHoverText" class="cardHoverText">
                                                 <ul className="social mb-0 list-inline mt-3">
-                                                    <p id="hidpara">Time pass, tang<li className="list-inline-item">
-                                                        <a href="#" className="social-link">F<i className="fa fa-facebook-f"></i></a></li>
-                                                        <li className="list-inline-item"><a href="#" className="social-link">T<i className="fa fa-twitter"></i></a></li>
-                                                        <li className="list-inline-item"><a href="#" className="social-link">I<i className="fa fa-instagram"></i></a></li>
-                                                        <li className="list-inline-item"><a href="#" className="social-link">L<i className="fa fa-linkedin"></i></a></li>
-                                                    </p>
-                                                </ul>
+                                                <p id="hidpara">Time pass, tang</p>
+                                                    <a href="https://github.com/himanshu-1808" className="social-link"><GitHubIcon/></a>
+                                                       <a href="#" className="social-link"><InstagramIcon/></a>
+                                                       <a href="https://www.linkedin.com/in/himanshu-panchal-1a897a1b5/" className="social-link"><LinkedInIcon/></a>
+                                                    </ul>
                                             </div>
                                         </div>
                                     </div>
