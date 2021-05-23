@@ -6,32 +6,50 @@ function Content() {
       <hr className="hr-1" />
       <div class="row featurette">
         <div class="col-md-6">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">INFANTS & CHILDREN<br></br><span class="text1">(0-13 YEARS)</span></h2>
+          <p class="lead">
+            <ul id="points">
+              <li>Have your kids wash their hands immediately after returning home.</li>
+              <li>Make sure your child in your household avoids close contact (within about 6 feet, or 2 meters) with anyone who doesn’t live in your household.</li>
+              <li>Wash your child's bedding and washable plush toys, as needed, in the warmest possible setting. Dry items completely.</li>
+              <li>In addition, keep up with your child's well visits and vaccines. This is especially important for infants and young children under age 2.</li>
+            </ul>
+          </p>
         </div>
         <div class="col-md-6">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22500%22%20height%3D%22500%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20500%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_179933edec1%20text%20%7B%20fill%3A%23AAAAAA%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_179933edec1%22%3E%3Crect%20width%3D%22500%22%20height%3D%22500%22%20fill%3D%22%23EEEEEE%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22185.109375%22%20y%3D%22261.203125%22%3E500x500%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" />
+          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="https://i.pinimg.com/564x/df/c9/9b/dfc99b79b923772e08e3a53c050809ab.jpg" data-holder-rendered="true" />
         </div>
       </div>
       <hr className="hr-1" />
 
       <div class="row featurette">
         <div class="col-md-6">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22500%22%20height%3D%22500%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20500%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_179933edec1%20text%20%7B%20fill%3A%23AAAAAA%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_179933edec1%22%3E%3Crect%20width%3D%22500%22%20height%3D%22500%22%20fill%3D%22%23EEEEEE%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22185.109375%22%20y%3D%22261.203125%22%3E500x500%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" />
+          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="https://i.pinimg.com/564x/54/f3/a0/54f3a0c295fceb6e4dc30e908abbe582.jpg" data-holder-rendered="true" />
         </div>
         <div class="col-md-6">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">TEENAGERS & ADULTS<br></br><span class="text1">(14-35 YEARS)</span></h2>
+          <p class="lead"><ul id="points">
+              <li>Make sure of washing your hands often , covering coughs and sneezes, and avoiding close contact with other people – even your friends. </li>
+              <li>Wearing Masks offer some protection to you and are also meant to protect those around you, in case you are infected with the virus that causes COVID-19. </li>
+              <li>Find ways to relax. Take deep breaths, stretch, or meditate. Try to do activities you enjoy, like exercising, gaming, reading or other hobbies</li>
+              <li>Avoid alcohol and drugs as they can weaken your body’s ability to fight infections and increase the risk of certain complications.</li>
+            </ul></p>
         </div>
       </div>
       <hr className="hr-1" />
       <div class="row featurette">
         <div class="col-md-6">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">MIDDLE & OLD AGE<br></br> <span class="text1">It'll blow your mind.</span></h2>
+          <p class="lead"><ul id="points">
+              <li>Delay or cancel a visit if you or your visitors have symptoms of COVID-19 or have been exposed to someone with COVID-19 in the last 14 days</li>
+              <li>Complete your care plan in consultation with your doctor, caregiver or home health aide.
+A care plan can have benefits beyond the current pandemic.</li>
+              <li>Fear and anxiety can be overwhelming and cause strong emotions.  Learn about stress and coping in these difficult times.</li>
+              <li>Take breaks from the news. A constant stream of negative or frightening news can bring you down .Try to limit your news intake </li>
+            </ul></p>
         </div>
         <div class="col-md-6">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22500%22%20height%3D%22500%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20500%20500%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_179933edec1%20text%20%7B%20fill%3A%23AAAAAA%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_179933edec1%22%3E%3Crect%20width%3D%22500%22%20height%3D%22500%22%20fill%3D%22%23EEEEEE%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22185.109375%22%20y%3D%22261.203125%22%3E500x500%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true" />
+          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="https://goodhearing.com/wp-content/uploads/2018/12/iStock-874800324.jpg" data-holder-rendered="true" />
         </div>
       </div>
       <hr className="hr-1" />

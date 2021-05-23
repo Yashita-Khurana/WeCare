@@ -103,7 +103,7 @@ function Contactus() {
               </div>
 
             </div>
-            <div id="note"><b>Note:</b> Fill the form and then click on send we'll redirect you to Yoga page.</div>
+            <div id="note"><b>Note:</b> Fill the form and then click on send we'll redirect you to Yoga instructor page.</div>
           </div>
 
         </section>
